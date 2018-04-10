@@ -1,0 +1,50 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+   // Layout = "~/Admin/Land/Views/Shared/_LayoutLand.cshtml";
+}
+<div class="row">
+    <div class="col-md-2 m-row">
+        <div class="ibox-title bg-blue-darker">
+            <a href="javascript:void(0);" class="panel-reload" style="color:#fff" onclick="ORDlst(); ORDlstnum();Gent()"><i class="glyphicon glyphicon-refresh"></i></a>
+            <a href="javascript:void(0);" onclick="location.href='@Url.Action("cash", "Admin")'" id="adsh" style="color:white ; font-size:18px ; font-style:unset"><span> كاشير</span></a>
+        </div>
+    </div>
+    <div class="col-md-2 col-sm-5">
+        <div class="ibox-title bg-blue-darker">
+            <a href="javascript:void(0);" class="panel-reload" style="color:#fff" onclick="ORDlst(); ORDlstnum();Gent()"><i class="glyphicon glyphicon-refresh"></i></a>
+            <a href="javascript:void(0);" onclick="location.href='@Url.Action("Index", "Acc")'" id="adsh" style="color:white ; font-size:18px ; font-style:unset"><span>حسابات</span></a>
+        </div>
+    </div>
+
+
+    @*<div class="col-md-3 col-sm-6">
+            <div class="ls-wizard  label-light-green" style="background-image: linear-gradient(#04054a, #111a2d)"
+                 onclick="location.href='@Url.Action("Emps", "Emp")'">
+                <h2>الموظفين</h2>
+                <span>بالمستشفي</span>
+                <div class="icon">
+                    <img src="~/Assets/images/icons/Users.png" alt=""
+                         style="max-width:50px" />
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="ls-wizard  label-light-green" style="background-image: linear-gradient(#ff0000, #111a2d)"
+                 onclick="location.href='@Url.Action("Index", "Home", new { Area ="Recep"})'">
+                <h2>الأجور</h2>
+                <span>أجور العاملين</span>
+                <div class="icon">
+                    <img src="~/Assets/images/icons/FI.png" alt=""
+                         style="max-width:50px" />
+                </div>
+            </div>
+        </div>*@
+</div>
+<br />
+<hr />
+<br />
+@*<link href="~/Assets/Menu/Menu.css" rel="stylesheet" />*@
+@*<link href="~/Content/themes/base/autocomplete.css" rel="stylesheet" />*@
+@*<link href="~/Assets/DisplayTable/jquery.dataTables.min.css" rel="stylesheet" />*@
+
